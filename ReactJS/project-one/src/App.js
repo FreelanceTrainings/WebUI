@@ -19,6 +19,15 @@ import CR01 from './Components/ConditionalRendering/CR01';
 import CR02 from './Components/ConditionalRendering/CR02';
 import CR03 from './Components/ConditionalRendering/CR03';
 import CR04 from './Components/ConditionalRendering/CR04';
+import PChild from './Components/PassingMethodsAsProps/PChild';
+import PParent from './Components/PassingMethodsAsProps/PParent';
+import ArrayDemo1 from './Components/WorkingWithArrays/ArrayDemo1';
+import ArrayDemo2 from './Components/WorkingWithArrays/ArrayDemo2';
+import CSSDemo1 from './Components/WorkingWithCSS/CSSDemo1';
+import CSSDemo2 from './Components/WorkingWithCSS/CSSDemo2';
+import CSSDemo3 from './Components/WorkingWithCSS/CSSDemo3';
+import BasicForm from './Components/Forms/BasicForm';
+import Table from './Components/Fragments/Table';
 
 function App() {
   return (
@@ -65,7 +74,18 @@ function App() {
     {/* <CR01/> */}
     {/* <CR02/> */}
     {/* <CR03/> */}
-    <CR04/>
+    {/* <CR04/> */}
+    {/* <PParent/> */}
+    {/* <ArrayDemo1/> */}
+    {/* <ArrayDemo2/> */}
+
+    {/* <CSSDemo1 status={false}/> */}
+    {/* <CSSDemo2/> */}
+    {/* <CSSDemo3/> */}
+
+    {/* <BasicForm/> */}
+
+    <Table/>
 
     </div>
      
