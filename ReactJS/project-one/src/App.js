@@ -28,6 +28,11 @@ import CSSDemo2 from './Components/WorkingWithCSS/CSSDemo2';
 import CSSDemo3 from './Components/WorkingWithCSS/CSSDemo3';
 import BasicForm from './Components/Forms/BasicForm';
 import Table from './Components/Fragments/Table';
+import ComponentA from './Components/LifeCycleHooks/ComponentA';
+import RegularComponent from './Components/PureComponents/RegularComponent';
+import PureComponentDemo from './Components/PureComponents/PureComponentDemo';
+import ParentComponentDemo from './Components/MemoComponents/ParentComponentDemo';
+import RefDemo from './Components/Refs/RefDemo';
 
 function App() {
   return (
@@ -85,7 +90,15 @@ function App() {
 
     {/* <BasicForm/> */}
 
-    <Table/>
+    {/* <Table/> */}
+    {/* <ComponentA/> */}
+
+    {/* <RegularComponent/>
+    <PureComponentDemo/> */}
+
+    {/* <ParentComponentDemo/> */}
+    <RefDemo/>
+
 
     </div>
      
