@@ -33,6 +33,16 @@ import RegularComponent from './Components/PureComponents/RegularComponent';
 import PureComponentDemo from './Components/PureComponents/PureComponentDemo';
 import ParentComponentDemo from './Components/MemoComponents/ParentComponentDemo';
 import RefDemo from './Components/Refs/RefDemo';
+import FRParent from './Components/ForwardRefs/FRParent';
+import ProductComponent from './Components/ErrorHandling/ProductComponent';
+import ErrorHandler from './Components/ErrorHandling/ErrorHandler';
+import UseStateDemo from './Components/UseState/UseStateDemo';
+import UseStateDemo1 from './Components/UseState/UseStateDemo1';
+import UseEffectDemo from './Components/UseEffect/UseEffectDemo';
+import ImagesDemo from './Components/DisplayingImages/ImagesDemo';
+import BootstrapSampleDemo from './Components/BootstrapDemo/BootstrapSampleDemo';
+import ComponentA1 from './Components/ContextAPI/ComponentA';
+import { UserProvider } from './Components/ContextAPI/UserContext';
 
 function App() {
   return (
@@ -97,9 +107,36 @@ function App() {
     <PureComponentDemo/> */}
 
     {/* <ParentComponentDemo/> */}
-    <RefDemo/>
+    {/* <RefDemo/> */}
+    {/* <FRParent/> */}
 
+    {/* <ErrorHandler>
+      <ProductComponent id="1" name="coke" price={50} category="Beverages"/>
+    </ErrorHandler>
 
+    <ErrorHandler>
+      <ProductComponent id="2" name="pepsi" price={50} category="Beverages"/>
+    </ErrorHandler>
+
+    <ErrorHandler>
+      <ProductComponent id="3" name="kinley soda" price={50} category="Beverages"/>
+    </ErrorHandler>
+
+    <ErrorHandler>
+      <ProductComponent id="4" name="burger" price={50} category="Food"/>
+    </ErrorHandler> */}
+
+    {/* <UseStateDemo/> */}
+    {/* <UseStateDemo1/> */}
+    {/* <UseEffectDemo/> */}
+    {/* <ImagesDemo/> */}
+    {/* <BootstrapSampleDemo/> */}
+
+<UserProvider value="admin1258">
+    <ComponentA1/>
+</UserProvider>
+    
+    
     </div>
      
   );
